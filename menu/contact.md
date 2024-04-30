@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+If you have any questions, feedback, or just want to say hello, feel free to contact me! You can reach me via email at [rieder.nikolas@gmail.com] or connect with me on social media:
