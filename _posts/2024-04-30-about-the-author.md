@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "About the Author"
-author: "Paul Le"
+title: About the Author
+author: Nikolas Rieder
 categories: journal
-tags: [documentation, sample]
+tags:
+  - documentation
+  - sample
 image: cutting.jpg
 ---
 

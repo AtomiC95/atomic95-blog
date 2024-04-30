@@ -1,3 +1,17 @@
+---
+layout: post
+title: About the Author
+author: Nikolas Rieder
+categories: journal
+tags:
+  - AI
+  - NLP
+  - Machine Learning
+  - Prompting
+  - Language Models
+image: prompting_thumbnail.png
+---
+
 In recent years, the field of natural language processing (NLP) has witnessed significant advancements, largely driven by the development of sophisticated language models like GPT-3.5 and GPT-4. Amidst these developments, _prompting_ has emerged as a powerful technique. Unlike traditional model training, prompting involves the strategic crafting of input prompts to steer a language model’s response in a desired direction. This method exploits the pre-trained knowledge of the model, enabling it to generate outputs that are more aligned with specific tasks, without the need for extensive retraining.
 
 In the following sections, we delve into the details of prompting, exploring its definition, benefits and explaining why you should know this technique.
