@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About the Author
+title: Steer the outcome of your LLM's
 author: Nikolas Rieder
 categories: journal
 tags:
