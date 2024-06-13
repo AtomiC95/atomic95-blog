@@ -24,7 +24,7 @@ The development of large pre-trained language models has traditionally been a re
 
 Hard prompts are human-crafted text prompts with discrete input tokens. These types of prompts are typically engineered by a human to solve a specific task. Let's say you want your pre-trained LLM to function as a translator from English to Spanish. You can create a template prompt with a few examples representing the translation from English to Spanish and leave the last sentence empty. The model will provide the translation for the last sentence.
 
-![basic pormpting example](../assets/img/basic_prompting_example.png)
+![basic pormpting example](atomic95-blog/assets/img/basic_prompting_example.png)
 
 Every element within the prompt, including not only human-readable text but also operators and line breaks, are important and will affect the outcome of the model. Adjusting each of these components is essential to creating a good prompt.
 
