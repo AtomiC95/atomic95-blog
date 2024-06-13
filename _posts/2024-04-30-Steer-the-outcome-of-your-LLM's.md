@@ -35,7 +35,7 @@ Another example could be that you want your LLM to solve a simple sentiment clas
 
 With hard prompts, this could be done like this:
 
-![sentence_classification_example](../assets/img/sentence_calssification_example.png)
+![sentence_classification_example](/atomic95-blog/assets/img/sentence_calssification_example.png)
 
 While this technique is manageable for simpler tasks, the complexity and effort required to create a good prompt increases substantially as the problem becomes more intricate. This is a significant drawback of hard prompting. In some cases, it might even be needed to create a series of prompts to achieve the desired outcome. This is where the second technique comes in, the so-called soft prompts.
 
@@ -53,7 +53,7 @@ At its core, prompt tuning is a method of influencing the behavior of a language
 
 Prompt tuning is more about 'teaching' the model how to apply its existing knowledge in a new context. It does not alter the model's weights; instead, it changes how the model interprets and responds to inputs.
 
-![prompt tuning image](../assets/img/prompt_tuning_image.png)
+![prompt tuning image](/atomic95-blog/assets/img/prompt_tuning_image.png)
 
 With this method, you only need to train a small set of prompt embeddings which can then specialize your model in a specific task. This is way more efficient than having to train different models for each task.
 
@@ -70,7 +70,7 @@ Prefix tuning is another approach for adapting language models to specific tasks
 
 In prefix tuning, a set of continuous vectors is optimized during training. These vectors, or prefixes, are prepended to the input sequence, effectively serving as a kind of learned context that guides the model's responses. The model itself remains frozen, so only the prefixes are optimized, which is a much smaller subset of parameters compared to the entire model.
 
-![prefix tuning image](../assets/img/prefix_tuning_example.png)
+![prefix tuning image](/atomic95-blog/assets/img/prefix_tuning_example.png)
 
 # Prompt Tuning vs. Prefix Tuning
 
