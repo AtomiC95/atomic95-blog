@@ -61,23 +61,23 @@ There are many type of Light Guidance:
 		the object is not directly illuminated, it is indirect illuminated with a diffusor. **a diffusor is a component which scatters light (milkglass)**
 		**properties:** homogeneous alignment, cracks are illuminated from all side, light intensity is reduced due to diffusor.
 		
-		![diffusor](/atomic95-blog/assets/img/diffusor.png)
+	![diffusor](/atomic95-blog/assets/img/diffusor.png)
 		
 1. *direct illumination*
 		**properties:** high intensity, location-dependent angle of incidence $\to$ only matt objects.
 		
-		![direct illumination](/atomic95-blog/assets/img/directillumination.png)
+	![direct illumination](/atomic95-blog/assets/img/directillumination.png)
 
 1. *focused illumination*
 		**properties:** high intensity due to focused illumination
 		
-		![focusedIllumination](/atomic95-blog/assets/img/focusedillumination.png)
+	![focusedIllumination](/atomic95-blog/assets/img/focusedillumination.png)
 
 1. *collimated lighting* 
 		The light source is within the focal point of the lens
 		**properties:** Images generated that way are rich in contrast. Used in combination with telecentric lenses.
 		
-		![collimated lighting](/atomic95-blog/assets/img/collimiert.png)
+	![collimated lighting](/atomic95-blog/assets/img/collimiert.png)
 		
 1. **structured lighting**
 		defined patterns are projected on the target.
