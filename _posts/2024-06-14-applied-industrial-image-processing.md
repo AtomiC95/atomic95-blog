@@ -57,8 +57,8 @@ A right light direction is essential for to get a clear information from the ext
 
 There are many type of Light Guidance:
 
-1. *diffuse  illumination*
-		the object is not directly illuminated, it is indirect illuminated with a diffusor. **a diffusor is a component which scatters light (milkglass)**
+1. *diffuse  illumination*<br>
+		the object is not directly illuminated, it is indirect illuminated with a diffusor. <br>**a diffusor is a component which scatters light (milkglass)**<br>
 		**properties:** homogeneous alignment, cracks are illuminated from all side, light intensity is reduced due to diffusor.
 		
 	![diffusor](/atomic95-blog/assets/img/diffusor.png)
@@ -68,16 +68,16 @@ There are many type of Light Guidance:
 		
 	![direct illumination](/atomic95-blog/assets/img/directillumination.png)
 
-1. *focused illumination*
+1. *focused illumination*<br>
 		**properties:** high intensity due to focused illumination
 		
 	![focusedIllumination](/atomic95-blog/assets/img/focusedillumination.png)
 
-1. *collimated lighting* 
-		The light source is within the focal point of the lens
+1. *collimated lighting*<br>
+		The light source is within the focal point of the lens.<br>
 		**properties:** Images generated that way are rich in contrast. Used in combination with telecentric lenses.
 		
 	![collimated lighting](/atomic95-blog/assets/img/collimiert.png)
 		
-1. **structured lighting**
+1. *structured lighting*<br>
 		defined patterns are projected on the target.
