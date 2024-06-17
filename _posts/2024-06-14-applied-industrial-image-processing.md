@@ -25,8 +25,11 @@ There are three commonly used types of Industrial Image Processing Systems (IPS)
 1. **Computer-based System:** This setup uses an external light source and a camera connected to a computer with installed software that can grab frames from the camera. The advantages include scalable computational power, flexibility in hardware selection, and direct visualization via a graphical user interface (GUI). However, the downsides are the high conceptual effort and increased physical space usage.
 
 2. **Smart Camera:** This system integrates a complete image processing unit, usually including a light source and a lens, within a single casing. Compared to the computer-based system, the smart camera setup requires minimal physical space, making it easy to integrate into most factory environments. But withit comes also some downside frist it is a proprietry software and not all features that somebody might want are included, so there is a dependency and the costs of such a system are usually bigger than the first setup but the needed knowledge is smaller.
+
 ![smart-camera](/atomic95-blog/assets/img/smart-camera.png)
+
 4. **Embedded Vision Systems:** Last but not least, there are also embedded vision systems, which are smaller than the other setups and cost less due to their microcontroller-based approach. The only real downside is the high integration effort.
+
 ![embedded-vision-system](/atomic95-blog/assets/img/embedded-vision-system.png)
 # Lightsources
 
@@ -44,12 +47,8 @@ $\to$
 
 $$\lambda = \frac{hc}{E_{g}}$$
 
-| connection                 | band gap [eV] | $\lambda$ [mm] | Use         |
-| -------------------------- | ------------- | -------------- | ----------- |
-| Gallium nitride            | 3,39          | 365            | blue LED's  |
-| Aluminum gallium phosphide | 2,28 + 0,16x  | ...543         | green LED's |
-| Gallium arsenide phosphide | 1,98          | 626            | rote LED's  |
-| Gallium arsenide           | 1,35          | 918            | IR LED's    |
+![band gaps for different elements](/atomic95-blog/assets/img/tableLEDs.png)
+
 For a deeper dive into LED's look [here](https://en.wikipedia.org/wiki/Light-emitting_diode).
 
 ## Light Guidance
@@ -61,17 +60,24 @@ There are many type of Light Guidance:
 1. *diffuse  illumination*
 		the object is not directly illuminated, it is indirect illuminated with a diffusor. **a diffusor is a component which scatters light (milkglass)**
 		**properties:** homogeneous alignment, cracks are illuminated from all side, light intensity is reduced due to diffusor.
-		![diffusor](/atomic95-blog/assets/img/diffusor.png = 400x400)
+		
+		![diffusor](/atomic95-blog/assets/img/diffusor.png)
 		
 1. *direct illumination*
 		**properties:** high intensity, location-dependent angle of incidence $\to$ only matt objects.
+		
 		![direct illumination](/atomic95-blog/assets/img/directillumination.png)
-3. *focused illumination*
+
+1. *focused illumination*
 		**properties:** high intensity due to focused illumination
+		
 		![focusedIllumination](/atomic95-blog/assets/img/focusedillumination.png)
-4. *collimated lighting* 
+
+1. *collimated lighting* 
 		The light source is within the focal point of the lens
 		**properties:** Images generated that way are rich in contrast. Used in combination with telecentric lenses.
+		
 		![collimated lighting](/atomic95-blog/assets/img/collimiert.png)
-5. **structured lighting**
+		
+1. **structured lighting**
 		defined patterns are projected on the target.
