@@ -26,11 +26,11 @@ There are three commonly used types of Industrial Image Processing Systems (IPS)
 
 2. **Smart Camera:** This system integrates a complete image processing unit, usually including a light source and a lens, within a single casing. Compared to the computer-based system, the smart camera setup requires minimal physical space, making it easy to integrate into most factory environments. But withit comes also some downside frist it is a proprietry software and not all features that somebody might want are included, so there is a dependency and the costs of such a system are usually bigger than the first setup but the needed knowledge is smaller.
 
-![smart-camera](/atomic95-blog/assets/img/smart-camera.png)
+	![smart-camera](/atomic95-blog/assets/img/smart-camera.png)
 
 4. **Embedded Vision Systems:** Last but not least, there are also embedded vision systems, which are smaller than the other setups and cost less due to their microcontroller-based approach. The only real downside is the high integration effort.
 
-![embedded-vision-system](/atomic95-blog/assets/img/embedded-vision-system.png)
+	![embedded-vision-system](/atomic95-blog/assets/img/embedded-vision-system.png)
 # Lightsources
 
 The spektrum of lightsources is divers as the spreptrum of light itself. In this blog we are going to focus on LED's because they are wiedly used in the domain of AIIP.
@@ -58,12 +58,12 @@ A right light direction is essential for to get a clear information from the ext
 There are many type of Light Guidance:
 
 1. *diffuse  illumination*<br>
-		the object is not directly illuminated, it is indirect illuminated with a diffusor. <br>**a diffusor is a component which scatters light (milkglass)**<br>
+		the object is not directly illuminated, it is indirect illuminated with a diffusor. **a diffusor is a component which scatters light (milkglass)**<br>
 		**properties:** homogeneous alignment, cracks are illuminated from all side, light intensity is reduced due to diffusor.
 		
 	![diffusor](/atomic95-blog/assets/img/diffusor.png)
 		
-1. *direct illumination*
+1. *direct illumination*<br>
 		**properties:** high intensity, location-dependent angle of incidence $\to$ only matt objects.
 		
 	![direct illumination](/atomic95-blog/assets/img/directillumination.png)
