@@ -37,6 +37,7 @@ The spektrum of lightsources is divers as the spreptrum of light itself. In this
 ## Light Emitting Diode
 
 tldr; creating light in different colors through electron-hole-combinations. Band gap of the semiconductor $\to$ wavelength $\to$ colour of light.
+
 $$E_{g}=hf=\frac{hc}{\lambda}$$
 
 $\to$
@@ -60,7 +61,7 @@ There are many type of Light Guidance:
 1. *diffuse  illumination*
 		the object is not directly illuminated, it is indirect illuminated with a diffusor. **a diffusor is a component which scatters light (milkglass)**
 		**properties:** homogeneous alignment, cracks are illuminated from all side, light intensity is reduced due to diffusor.
-		![diffusor](/atomic95-blog/assets/img/diffusor.png)
+		![diffusor](/atomic95-blog/assets/img/diffusor.png = 400x400)
 		
 1. *direct illumination*
 		**properties:** high intensity, location-dependent angle of incidence $\to$ only matt objects.
