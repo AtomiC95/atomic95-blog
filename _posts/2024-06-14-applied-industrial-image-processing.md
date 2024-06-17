@@ -11,6 +11,7 @@ image: aibv_title.png
 last updated: 2024-06-14
 ---
 **last updated: 2024-06-17**
+
 Hello! Welcome to this blog where we delve into the workings of industrial cameras and their application in classical image processing techniques. We also explore cutting-edge methods utilizing Convolutional Neural Networks (CNNs). Whether you're looking to build a solid foundation in image processing or expand your knowledge with modern approaches, you've come to the right place. Happy reading!
 
 # Introduction
@@ -37,7 +38,9 @@ The spektrum of lightsources is divers as the spreptrum of light itself. In this
 
 tldr; creating light in different colors through electron-hole-combinations. Band gap of the semiconductor $\to$ wavelength $\to$ colour of light.
 $$E_{g}=hf=\frac{hc}{\lambda}$$
+
 $\to$
+
 $$\lambda = \frac{hc}{E_{g}}$$
 
 | connection                 | band gap [eV] | $\lambda$ [mm] | Use         |
@@ -57,8 +60,9 @@ There are many type of Light Guidance:
 1. *diffuse  illumination*
 		the object is not directly illuminated, it is indirect illuminated with a diffusor. **a diffusor is a component which scatters light (milkglass)**
 		**properties:** homogeneous alignment, cracks are illuminated from all side, light intensity is reduced due to diffusor.
-		![diffusor](/atomic95-blog/assets/img/diffuor.png)
-2. *direct illumination*
+		![diffusor](/atomic95-blog/assets/img/diffusor.png)
+		
+1. *direct illumination*
 		**properties:** high intensity, location-dependent angle of incidence $\to$ only matt objects.
 		![direct illumination](/atomic95-blog/assets/img/directillumination.png)
 3. *focused illumination*
