@@ -10,7 +10,7 @@ tags:
 image: aibv_title.png
 last updated: 2024-06-14
 ---
-**last updated: 2024-06-17**
+**last updated: 2024-06-23**
 
 Hello! Welcome to this blog where we delve into the workings of industrial cameras and their application in classical image processing techniques. We also explore cutting-edge methods utilizing Convolutional Neural Networks (CNNs). Whether you're looking to build a solid foundation in image processing or expand your knowledge with modern approaches, you've come to the right place. Happy reading!
 
@@ -31,6 +31,7 @@ There are three commonly used types of Industrial Image Processing Systems (IPS)
 4. **Embedded Vision Systems:** Last but not least, there are also embedded vision systems, which are smaller than the other setups and cost less due to their microcontroller-based approach. The only real downside is the high integration effort.
 
 	![embedded-vision-system](/atomic95-blog/assets/img/embedded-vision-system.png)
+
 # Lightsources
 
 The spektrum of lightsources is divers as the spreptrum of light itself. In this blog we are going to focus on LED's because they are wiedly used in the domain of AIIP.
@@ -79,5 +80,51 @@ There are many type of Light Guidance:
 		
 	![collimated lighting](/atomic95-blog/assets/img/collimiert.png)
 		
-1. *structured lighting*<br>
-		defined patterns are projected on the target.
+## Surface Structure
+
+To decide which kind of illumination is best suited for your specific use case, you need to know the surface structure of your target.
+
+a rough classification is: <br>
+	- matt flat surface
+		- **properties:** scattering surface - illumination is non-critical 
+	- glossy flat surface
+		- **properties:** target acts as mirror $\to$ light source is visible in image - light has to be scattered with a diffusor
+	- matt uneven surface
+		- **properties:** depending on the angle of incidence shadow cast possible.
+	- glossy uneven surface
+		- **properties:** light has to be diffused -> spezial illumination hardware like a dome lighting.
+## light solutions
+
+### coaxial lighting
+Coaxial lighting creates homogeneous illumination on a target object. <br>
+![coaxial lighting](/atomic95-blog/assets/img/coaxial-lighting.png)
+### coaxial lighting (collimated)
+only plain horizontal areas appear bright.<br>
+![coacial-lighting-collimated](/atomic95-blog/assets/img/coaxial-lighting-collimated.png)
+### dome lighting
+Constructive avoidance of inhomogeneous illumination.<br>
+![dome lighting](/atomic95-blog/assets/img/dome-lighting.png)
+### bright field illumination
+Horizontal areas appear bright and scratches appear dark. <br>
+![bright field illumination](/atomic95-blog/assets/img/bright-field.png)
+### dark field illumination 
+Only scattering features appear bright $\to$ Usefull for finding scratches. <br>
+![dark field illumination](atomic95-blog/assets/img/dark field.png)
+# Lens and Camera
+
+In this chapter we want to answer the following questions: <br>
+- What is a central projection?
+- Why is a lens optic more widely used than a pinhole camera?
+- How is the illistration law derived and where it is applied?
+- How an aperture influences the depth of field?
+- what the depth of field is, name its influencing parameters and calculate the depth of field
+- for which a telecentric lens is used.
+
+With a pinhole camera it is possible to capture light trough a hole and to project on a 2 dimensional area. Because of the properties of light knowing the relative position of the target object in regards of the pinhole it is possible to determine properties of the projected object on the 2D area. <br>
+This is called central projection. It says that the distance from the object to the pinhole on the x-axis $x_{c}$ devided by the distance $z_{c}$ on the z-axis is equals the relation $\frac{x}{z}$ whereby x stands for the distance between projection and pinhole on the x-axis and z for the distance on the z-axis. Also because the origin of the coordiantes lies on the pinhole we need to use a negativ sign for the projection side. <br>
+$$\frac{x_{c}}{z_{c}}=-\frac{x}{z}$$<br>
+The same applies for the y-axis. <br>
+$$\frac{y_{c}}{z_{c}}=-\frac{y}{z}$$<br>
+=><br>
+With size ratio $V=-\frac{b}{g}$<br>
+![pinhole-schematic](atomic95-blog/assets/img/pinhole.png)
