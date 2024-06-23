@@ -86,13 +86,13 @@ To decide which kind of illumination is best suited for your specific use case, 
 
 a rough classification is: <br>
 	- matt flat surface<br>
-		- **properties:** scattering surface - illumination is non-critical<br> 
+		**properties:** scattering surface - illumination is non-critical<br> 
 	- glossy flat surface<br>
-		- **properties:** target acts as mirror $\to$ light source is visible in image - light has to be scattered with a diffusor<br>
+		**properties:** target acts as mirror $\to$ light source is visible in image - light has to be scattered with a diffusor<br>
 	- matt uneven surface<br>
-		- **properties:** depending on the angle of incidence shadow cast possible.<br>
+		**properties:** depending on the angle of incidence shadow cast possible.<br>
 	- glossy uneven surface<br>
-		- **properties:** light has to be diffused -> spezial illumination hardware like a dome lighting.<br>
+		 **properties:** light has to be diffused -> spezial illumination hardware like a dome lighting.<br>
 ## light solutions
 
 ### coaxial lighting
@@ -127,4 +127,4 @@ The same applies for the y-axis. <br>
 	$$\frac{y_{c}}{z_{c}}=-\frac{y}{z}$$<br>
 =><br>
 With size ratio $V=-\frac{b}{g}$<br>
-![pinhole-schematic](atomic95-blog/assets/img/pinhole.png)<br>
+![pinhole-schematic](/atomic95-blog/assets/img/pinhole.png)<br>
