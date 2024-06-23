@@ -85,14 +85,14 @@ There are many type of Light Guidance:
 To decide which kind of illumination is best suited for your specific use case, you need to know the surface structure of your target.
 
 a rough classification is: <br>
-	- matt flat surface
-		- **properties:** scattering surface - illumination is non-critical 
-	- glossy flat surface
-		- **properties:** target acts as mirror $\to$ light source is visible in image - light has to be scattered with a diffusor
-	- matt uneven surface
-		- **properties:** depending on the angle of incidence shadow cast possible.
-	- glossy uneven surface
-		- **properties:** light has to be diffused -> spezial illumination hardware like a dome lighting.
+	- matt flat surface<br>
+		- **properties:** scattering surface - illumination is non-critical<br> 
+	- glossy flat surface<br>
+		- **properties:** target acts as mirror $\to$ light source is visible in image - light has to be scattered with a diffusor<br>
+	- matt uneven surface<br>
+		- **properties:** depending on the angle of incidence shadow cast possible.<br>
+	- glossy uneven surface<br>
+		- **properties:** light has to be diffused -> spezial illumination hardware like a dome lighting.<br>
 ## light solutions
 
 ### coaxial lighting
@@ -122,9 +122,9 @@ In this chapter we want to answer the following questions: <br>
 
 With a pinhole camera it is possible to capture light trough a hole and to project on a 2 dimensional area. Because of the properties of light knowing the relative position of the target object in regards of the pinhole it is possible to determine properties of the projected object on the 2D area. <br>
 This is called central projection. It says that the distance from the object to the pinhole on the x-axis $x_{c}$ devided by the distance $z_{c}$ on the z-axis is equals the relation $\frac{x}{z}$ whereby x stands for the distance between projection and pinhole on the x-axis and z for the distance on the z-axis. Also because the origin of the coordiantes lies on the pinhole we need to use a negativ sign for the projection side. <br>
-$$\frac{x_{c}}{z_{c}}=-\frac{x}{z}$$<br>
+	$$\frac{x_{c}}{z_{c}}=-\frac{x}{z}$$<br>
 The same applies for the y-axis. <br>
-$$\frac{y_{c}}{z_{c}}=-\frac{y}{z}$$<br>
+	$$\frac{y_{c}}{z_{c}}=-\frac{y}{z}$$<br>
 =><br>
 With size ratio $V=-\frac{b}{g}$<br>
-![pinhole-schematic](atomic95-blog/assets/img/pinhole.png)
+![pinhole-schematic](atomic95-blog/assets/img/pinhole.png)<br>
